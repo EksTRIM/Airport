@@ -17,7 +17,7 @@ import javax.persistence.Table;
 @Table(name = "air_company")
 public class Air_company extends BaseEntity{
 
-    @Column(name = "compan_name",length = 150,nullable = false)
+    @Column(name = "compan_name", length = 150,nullable = false)
     private String companyName;
 
     @Column(name = "company_address", nullable = false)
